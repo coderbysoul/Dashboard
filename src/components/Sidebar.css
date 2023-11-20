@@ -1,0 +1,91 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 44px;
+    font-weight: light;
+    margin-bottom: 10px;
+    color: lightgray;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px 0;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .option {
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom:2vh;
+  }
+  
+  .option:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .option.active {
+    background-color: #add8e6; /* light blue */
+    color: #003366; /* dark blue */
+  }
+
+  
+  
+ 
+
+.user-info {
+    margin-top: 30vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 20px; /* Adds some space between the options and user-info */
+    position: relative;
+  }
+  
+  .user-image {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Adds space between the image and user details */
+  }
+  
+  .user-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .user-email {
+    font-size: 12px;
+    color: #666;
+  }
+  

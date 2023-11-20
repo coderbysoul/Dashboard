@@ -1,0 +1,103 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+  flex-grow: 1; /* Make the dashboard grow to fill the available space */
+  padding: 20px;
+  background-color: #fff; /* Light gray background */
+}
+
+.header {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.header h2 {
+  color: #000; /* Black text color */
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-option {
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  color: #666; /* Gray text color */
+  transition: color 0.3s;
+}
+
+.filter-option:hover {
+  color: #000; /* Black text color on hover */
+}
+
+.filter-option.active {
+  color: #000; /* Black text color for the active filter */
+}
+
+.close-account {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push it to the right */
+  padding: 0.5rem;
+  background-color: #ffc0cb; /* Light pink background */
+  border-radius: 5px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border: 2px solid red;
+  
+}
+
+.close-account .icon {
+ 
+  color: #ff0000;
+  
+}
+
+.close-account .text {
+  color: #ff0000; /* Red text color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.line {
+  height: 2px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.data {
+  background-color: #f0f0f0; /* Light gray background for data rows */
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: blue;
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+.input-field {
+  padding: 15px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
